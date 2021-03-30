@@ -1,0 +1,38 @@
+#mixed frame
+
+<html>
+<head>
+<title>frames</title>
+</head>
+<frameset rows="25%,75%">
+<frame src="basic1.html">
+<frameset cols="25%,50%,25%">
+<frame src="nav.html">
+<frame name="letter" src="C:\Users\DELL\Desktop\RGM_5940-1-980x400.jpg">
+<frame src="iframe.html">
+</frameset>
+</frameset>
+</html>
+ 
+ 
+ #navigation frame
+ 
+ <html>
+<body bgcolor="pink">
+<center><h2>Navigation frame</h2></center>
+<h3>
+<a href="table.html">TABLE</a><br>
+<br>
+<a href="image.html">IMAGE</a>
+</h3>
+</body>
+</html>
+
+ #iframe
+ 
+ <html>
+<body>
+<center><iframe src="regi.html" height="300" width="300"><p>iframe not supported</p>
+</iframe></center>
+</body>
+</html>
